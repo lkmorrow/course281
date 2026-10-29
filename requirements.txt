@@ -1,0 +1,6 @@
+# requirements.txt for Physics 281 starter environment 9/23/26 D.Candela
+numpy
+scipy
+matplotlib
+pandas
+pytest

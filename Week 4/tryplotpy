@@ -1,0 +1,18 @@
+"""pyplot.py 9/28/26 Liam Morrow
+Try out plotting."""
+
+import numpy as np
+from numpy import cos,sin
+import matplotlib.pyplot as plt
+
+xs = np.linspace(-10,10,100)
+ys = cos(xs)
+plt.plot(xs,ys)
+# plt.show()
+
+ys2 = sin(xs)
+
+plt.plot(xs,ys2)
+plt.xlabel(r"$\pi \Delta \delta$", size = 20) # labels the axis with latex
+plt.ylabel(r"$\cos(x)$", size = 15) # labels the axis with latex
+plt.show()
