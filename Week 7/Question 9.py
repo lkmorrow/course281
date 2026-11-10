@@ -7,7 +7,9 @@ x = rng.normal(size=100)
 y = rng.normal(size=100)
 
 # Choose the rotation angle
-theta = np.pi / 2  # Try a very small angle too, e.g. 0.01
+theta = np.pi / 2  # Try a very small angle too, e.g. 0.01.
+# 0.01 makes the two colors become very close to each other,
+# due to a very small rotation
 
 # Rotate the points
 xr = x * np.cos(theta) - y * np.sin(theta)
